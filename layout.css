@@ -1,0 +1,66 @@
+body{
+    background:url("./checkered.jpg");
+    background-size:cover;
+}
+
+#wrapper{
+    position:relative;
+    height:1000px;
+    width: 1500px;
+    margin:0px auto;
+}
+#header{
+    background:black;
+    width:1500px;
+    height:50px;
+    opacity:0.8;
+}
+
+#content{
+    background:url("./khuxbg.jpg") center center;
+    background-size: cover;
+    position: absolute;
+    top:50px;
+    left:150px;
+    right:150px;
+    height: inherit;
+}
+
+#left{
+    background:black;
+    position:static;
+    width: 150px;
+    height: 1000px; 
+    opacity:0.8;
+}
+
+#footer{
+    background:black;
+    position:static;
+    height:50px;
+    opacity:0.8;
+}
+
+#right{
+    background:black;
+    position:absolute;
+    top:50px;
+    right:0px;
+    width:150px;
+    height:1000px;
+    opacity:0.8;
+}
+
+div.img{
+    margin:5px;
+    border:1px solid black;
+    background:black;
+    opacity: 0.5;
+    float:left;
+    width: 225px;
+}
+
+div.img:hover {
+    opacity:1;
+}
+
